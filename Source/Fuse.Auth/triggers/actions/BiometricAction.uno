@@ -46,7 +46,7 @@ namespace Fuse
 
 					module.exports = {
 						status,
-						statusMessage
+						statusMessage,
 						resultHandler: function(data) {
 							status.value = data.result; // bool value indicating whether true value when it succeed or false value if it failed
 							statusMessage.value = data.message;
