@@ -24,7 +24,7 @@ namespace Fuse
 				```XML
 					<App>
 						<JavaScript>
-							var Auth = require('useJS/Auth');
+							var Auth = require('FuseJS/Auth');
 
 							function doSignIn() {
 								Auth.signIn().then(function(result) {
